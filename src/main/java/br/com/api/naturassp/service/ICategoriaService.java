@@ -1,6 +1,7 @@
 package br.com.api.naturassp.service;
 
 import br.com.api.naturassp.model.Categoria;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
