@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: naturassp
+  datasource:
+    username: naturassp
+    password: q1w2e3r4
+    url: jdbc:mysql://localhost:3306/bd_naturassp?useTimezone=true&serverTimezone=America/SaoPaulo
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show_sql: true
+
+server:
+  port: 8088
